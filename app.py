@@ -19,6 +19,7 @@ def home():
 def predict():
     int_features = [str(x) for x in request.form.values()]
     # payload = [np.array(int_features)]
+    print('Payload: ',int_features)
     phone = [int_features[0]]
     message = [int_features[1]]
 
@@ -76,12 +77,14 @@ def predict():
 
     output = prediction[0]
     if output == 1:
-        output = 'A SPAM'
+        output = 'HARMFUL'
     else:
-        output = "NOT A SPAM"
+        output = "SAFE"
     # return render_template('index.html',prediction_text='RESULT = []'.format(output))
-    return render_template('index.html',prediction_text='THIS IS {}'.format(output))
-    # return {"result":'THIS IS {}'.format(output)}
+    # return render_template('index.html',prediction_text='THIS IS {}'.format(output))
+    return {"result":'{}'.format(output)}
 
+# if __name__ == '__main__':
+#     app.run(debug=True)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)  # Bind to all interfaces
