@@ -182,12 +182,12 @@ button{background:transparent;}
         <h2>SPAM PREDICTION</h2>
         <form action="{{url_for('predict')}}" method="post">
             <div class="user-box">
-              <input type="hidden" name="phone" value="">
-<!--              <label>Phone</label>-->
+              <input type="text" name="phone" value="1234567890">
+              <label>Phone</label>
             </div>
             <div class="user-box">
-              <input type="text" name="message" value="" placeholder="ingredients">
-              <label>Ingredients</label>
+              <input type="text" name="message" value="congratulations you have won money, click here to receive!">
+              <label>Message</label>
             </div>
             <!--<a href="#">-->
               <!--<span></span>-->

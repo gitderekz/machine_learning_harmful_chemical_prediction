@@ -1,0 +1,69 @@
+Ingredients,Classification,Description
+Ingredients/Ingrédients:AQUA (WATER); CAPRYLIC/CAPRIC TRIGLYCERIDE; CETYL ALCOHOL; PROPANEDIOL; STEARYL ALCOHOL; GLYCERIN; SODIUM HYALURONATE; ARGININE; ASPARTIC ACID; GLYCINE; ALANINE; SERINE; VALINE; ISOLEUCINE; PROLINE; THREONINE; HISTIDINE; PHENYLALANINE; GLUCOSE; MALTOSE; FRUCTOSE; TREHALOSE; SODIUM PCA; PCA; SODIUM LACTATE; UREA; ALLANTOIN; LINOLEIC ACID; OLEIC ACID; PHYTOSTERYL CANOLA GLYCERIDES; PALMITIC ACID,Safe,The Ordinary Natural Moisturizing
+Petrolatum;Mineral Oil;Paraffin,Safe,Common ingredients in lotions and ointments like Vaseline; generally considered safe.
+Water;Glycerin;Stearic Acid;Isopropyl Myristate,Safe,Typical ingredients in many lotions; generally considered safe.
+Coconut Oil;Shea Butter;Jojoba Oil,Safe,Natural moisturizers and emollients; generally considered safe.
+Water;Cetearyl Alcohol;Dimethicone,Safe,Common in lotions for texture and moisture; generally considered safe.
+Aloe Vera;Vitamin E;Chamomile Extract,Safe,Soothing and antioxidant ingredients; generally considered safe.
+Water;Sodium Lauryl Sulfate;Cocamidopropyl Betaine,Unsafe,SLS can be irritating and Cocamidopropyl Betaine can cause allergies in some individuals.
+Parfum;Limonene;Linalool,Unsafe,Fragrance components that can cause allergic reactions and irritation.
+Oxybenzone;Octinoxate;Homosalate,Unsafe,Chemical sunscreens linked to endocrine disruption.
+Triclosan;Triclocarban,Unsafe,Antimicrobial agents linked to endocrine disruption and antibiotic resistance.
+Formaldehyde;DMDM Hydantoin;Quaternium-15,Unsafe,Preservatives that release formaldehyde; known carcinogens.
+Lead;Mercury;Cadmium,Unsafe,Heavy metals that are toxic and can cause various health issues.
+Parabens;Methylparaben;Propylparaben,Unsafe,Preservatives linked to endocrine disruption.
+Polyethylene Glycol (PEG);Stearate;Laurate,"Unsafe,Potentially contaminated with ethylene oxide and 1,4-dioxane; possible carcinogens".
+Benzyl Alcohol;Phenoxyethanol;Ethylhexylglycerin,Safe,Preservatives used in low concentrations; generally considered safe.
+Retinol;Retinyl Palmitate;Ascorbic Acid,Safe,Anti-aging ingredients and antioxidants; generally considered safe when used properly.
+Sodium Hyaluronate;Niacinamide;Allantoin,Safe,Moisturizing and soothing agents; generally considered safe.
+BHT;BHA,Unsafe,Antioxidants used as preservatives; potential endocrine disruptors and carcinogens.
+Sodium Laureth Sulfate (SLES);Cocamide DEA,"Unsafe,SLES can be contaminated with 1,4-dioxane and Cocamide DEA is a possible carcinogen".
+Titanium Dioxide;Zinc Oxide,Safe,Physical sunscreens; generally considered safe.
+Tea Tree Oil;Lavender Oil;Eucalyptus Oil,Safe,Essential oils with antimicrobial properties; generally considered safe in proper concentrations.
+Methylparaben,Unsafe,Preservative; potential endocrine disruptor.
+Propylparaben,Unsafe,Preservative; linked to reproductive toxicity.
+Butylparaben,Unsafe,Preservative; potential endocrine disruptor.
+Dibutyl phthalate (DBP),Unsafe,Plasticizer; linked to reproductive issues.
+Diethyl phthalate (DEP),Unsafe,Plasticizer; endocrine disruptor.
+Quaternium-15,Unsafe,Preservative; releases formaldehyde.
+DMDM hydantoin,Unsafe,Preservative; releases formaldehyde.
+Imidazolidinyl urea,Unsafe,Preservative; releases formaldehyde.
+Sodium Lauryl Sulfate (SLS),Unsafe,Surfactant; skin irritant.
+Sodium Laureth Sulfate (SLES),Unsafe,Surfactant; potential carcinogen.
+Triclosan,Unsafe,Antimicrobial agent; endocrine disruptor.
+Toluene,Unsafe,Solvent; reproductive toxicity.
+Lead,Unsafe,Heavy metal; neurotoxic.
+Mercury,Unsafe,Heavy metal; neurotoxic.
+Cadmium,Unsafe,Heavy metal; carcinogenic.
+Arsenic,Unsafe,Heavy metal; carcinogenic.
+Hydroquinone,Unsafe,Skin-lightening agent; carcinogenic.
+Oxybenzone,Unsafe,Chemical sunscreen; endocrine disruptor.
+Octinoxate,Unsafe,Chemical sunscreen; endocrine disruptor.
+Homosalate,Unsafe,Chemical sunscreen; skin irritant.
+Synthetic musks,Unsafe,Fragrance; endocrine disruptor.
+Parfum,Unsafe,Fragrance; potential allergen.
+Polyethylene Glycols (PEGs),Unsafe,Thickener; potential contaminant.
+p-phenylenediamine (PPD),Unsafe,Hair dye; carcinogenic.
+Aloe Vera,Safe,Natural moisturizer.
+Shea Butter,Safe,Natural emollient.
+Coconut Oil,Safe,Natural moisturizer and emollient.
+Jojoba Oil,Safe,Natural moisturizer.
+Glycerin,Safe,Humectant.
+Vitamin E,Safe,Antioxidant.
+Chamomile Extract,Safe,Soothing agent.
+Green Tea Extract,Safe,Antioxidant.
+Hyaluronic Acid,Safe,Humectant.
+Beeswax,Safe,Emollient and thickener.
+Titanium Dioxide,Safe,Physical sunscreen.
+Zinc Oxide,Safe,Physical sunscreen.
+Cetyl Alcohol,Safe,Emollient and emulsifier.
+Stearyl Alcohol,Safe,Emollient and emulsifier.
+Panthenol (Vitamin B5),Safe,Moisturizer and humectant.
+Niacinamide (Vitamin B3),Safe,Skin-conditioning agent.
+Lactic Acid,Safe,Alpha hydroxy acid; exfoliant.
+Citric Acid,Safe,Alpha hydroxy acid; pH adjuster.
+Tea Tree Oil,Safe,Essential oil; antimicrobial.
+Lavender Oil,Safe,Essential oil; fragrance and soothing agent.
+Retinol (Vitamin A),Safe,Anti-aging agent.
+Salicylic Acid,Safe,Beta hydroxy acid; exfoliant.
+Allantoin,Safe,Skin protectant.
