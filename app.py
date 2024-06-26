@@ -10,7 +10,6 @@ from sklearn.naive_bayes import MultinomialNB
 import pickle as pk
 
 app = Flask(__name__)
-# model = pk.load(open('model.pkl', 'rb'))
 
 @app.route('/')
 def home():

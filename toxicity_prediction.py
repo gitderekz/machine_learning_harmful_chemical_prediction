@@ -1,3 +1,7 @@
+# 23
+# 70
+# 614
+
 # import packages
 import os
 
@@ -32,8 +36,13 @@ model = MultinomialNB()
 model.fit(x_train_count, y_train)
 
 # # Save model and vectorizer
-# with open('toxicity_model.pkl', 'wb') as model_file:
-#     pk.dump((model, cv), model_file)
+peak = 0.9841269841269841
+score = model.score(cv.transform(x_test), y_test)
+print('CURRENT SCORE: ', score)
+if score > peak:
+    print('score > peak: ', score)
+    with open('toxicity_model.pkl', 'wb') as model_file:
+        pk.dump((model, cv), model_file)
 
 # Use stored model
 if os.path.exists('toxicity_model.pkl'):
@@ -41,18 +50,18 @@ if os.path.exists('toxicity_model.pkl'):
         model, cv = pk.load(model_file)
 
 # pre-test
-valid_email = ['benzyl']
+valid_email = ['Parabens']
 valid_email_count = cv.transform(valid_email)
 print('message: ',valid_email_count)
 result = model.predict(valid_email_count)
 print('result1',result)
 invalid_email = ['water']
 invalid_email_count = cv.transform(invalid_email)
-print('message: ',valid_email_count)
+print('message: ',invalid_email_count)
 result = model.predict(invalid_email_count)
 print('result2',result)
 
 # test model
 x_test_count = cv.transform(x_test)
 test_result = model.score(x_test_count, y_test)
-print(test_result)
+print('Score',test_result)
