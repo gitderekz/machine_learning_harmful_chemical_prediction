@@ -35,8 +35,8 @@ x_train_count.toarray()
 model = MultinomialNB()
 model.fit(x_train_count, y_train)
 
-# # Save model and vectorizer
-peak = 0.9841269841269841
+# Save model and vectorizer
+peak = 0.9861111111111112
 score = model.score(cv.transform(x_test), y_test)
 print('CURRENT SCORE: ', score)
 if score > peak:
@@ -50,7 +50,7 @@ if os.path.exists('toxicity_model.pkl'):
         model, cv = pk.load(model_file)
 
 # pre-test
-valid_email = ['Parabens']
+valid_email = ['water,mercury,Parabens,']
 valid_email_count = cv.transform(valid_email)
 print('message: ',valid_email_count)
 result = model.predict(valid_email_count)
