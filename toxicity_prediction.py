@@ -1,6 +1,7 @@
 # 23
 # 70
 # 614
+# 124 SAFE 100 UNSAFE
 
 # import packages
 import os
@@ -13,7 +14,7 @@ from sklearn.naive_bayes import MultinomialNB
 import pickle as pk
 
 # import data
-spam_df = pd.read_csv('ingredients.csv',sep=",") #spam dataframe
+spam_df = pd.read_csv('ingredients_dataset.csv',sep=",") #spam dataframe
 
 # # inspect data
 # spam_df.groupby('Category').describe
@@ -36,7 +37,9 @@ model = MultinomialNB()
 model.fit(x_train_count, y_train)
 
 # Save model and vectorizer
-peak = 0.9861111111111112
+# peak = 0.9861111111111112
+peak = 1.0
+# peak = 0
 score = model.score(cv.transform(x_test), y_test)
 print('CURRENT SCORE: ', score)
 if score > peak:
@@ -50,12 +53,14 @@ if os.path.exists('toxicity_model.pkl'):
         model, cv = pk.load(model_file)
 
 # pre-test
-valid_email = ['water,mercury,Parabens,']
+# valid_email = ['water,mercury,Parabens,']
+valid_email = ['water,mercury,Triclosan,']
 valid_email_count = cv.transform(valid_email)
 print('message: ',valid_email_count)
 result = model.predict(valid_email_count)
 print('result1',result)
-invalid_email = ['water']
+invalid_email = ['water,Cocamidopropyl Betaine,Triclosan']
+# invalid_email = ['water,Triclosan']
 invalid_email_count = cv.transform(invalid_email)
 print('message: ',invalid_email_count)
 result = model.predict(invalid_email_count)
